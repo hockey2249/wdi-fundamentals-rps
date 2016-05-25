@@ -30,8 +30,8 @@ var computerWins = 0;
 var playerCompTies = 0;
 
 function getInput() {
-   playerMove = prompt("Do you choose rock, paper, or scissors?);
-
+   playerMove = prompt("Choose 'rock', 'paper', or 'scissors'. Or hit enter or any character for a random selection.");
+   
    if (playerMove === "rock" || playerMove === "paper" || playerMove === "scissors") {
    		console.log("You have chosen: " + playerMove.toUpperCase());
         return playerMove;
